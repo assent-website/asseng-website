@@ -1038,7 +1038,7 @@ export const translations = {
       weight: "Peso",
       capacity: "Capacidad",
       temperature: "Temperatura"
-    }
+    },
 
     // Asseng Energy Calculator
     title_short: "Asseng - Devis Énergie Gratuit",

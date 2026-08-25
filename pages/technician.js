@@ -155,7 +155,7 @@ export default function Technician() {
             <p className="text-gray-300 mb-6">{t.technician_success_desc || 'Le devis a été généré et téléchargé. Un email a été envoyé au client.'}</p>
             <div className="flex gap-4 justify-center">
               <button onClick={() => router.push('/')} className="px-6 py-3 bg-brand-orange text-white rounded hover:bg-orange-700">
-                {t.back_to_home || 'Retour à l'accueil'}
+                {t.back_to_home || "Retour à l'accueil"}
               </button>
               <button onClick={() => { setSubmitted(false); setFormData({ ...formData, notes: '', pac_power_kw: '' }); }} className="px-6 py-3 border border-gray-600 text-white rounded hover:bg-gray-800">
                 {t.new_submission || 'Nouvelle soumission'}
